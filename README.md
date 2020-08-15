@@ -7,4 +7,5 @@
 
 ## その他
 * [カラーサークル作成ツール](https://tankarup.github.io/colorcircle/)
-* [アイマス技術部](imas_tech.md)
+* [いろいろ](https://tankarup.github.io/MillionLive-analysis/)
+* [アイマス技術部リンク](imas_tech.md)
