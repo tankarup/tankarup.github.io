@@ -18,6 +18,8 @@
 * [みりしたつーる](https://megmeg.work/mltd/)
 * [アイドルマスター ミリオンライブ！個人制作非公式データベース](https://docs.google.com/spreadsheets/d/1a4O6sCaZMzTliRcSXCCULf_r3C8unuWWRD7xEwk2H8U/edit#gid=1383989789)
 * [ミリオンライブ曲DB](https://imasdb.sakaki333.com/)
+* [ミリシタキャラDB](http://mirishitadb.php.xdomain.jp/db/) ([缶様](https://twitter.com/mirishitamvp))
+* [ミリシタDB](https://imas.gamedbs.jp/mlth/)([]())
 * [ミリシタSSR所持率チェッカー](https://mistik.xtr.jp/ml_ssr/)
 
 # SideM
