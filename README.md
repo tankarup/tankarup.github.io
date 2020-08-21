@@ -1,5 +1,7 @@
 # tankarup.github.io
 
+私たちは律子Pです。今からアイマス、ミリシタ関連のツールを作ります。
+
 ## アイマス関連ツール
 * [ミリシタおススメ未実装曲検索](https://tankarup.github.io/MillionLive-Song-Recommend/)
 * [アイマスおススメ曲検索](https://tankarup.github.io/Imas-Song-Recommend/)
