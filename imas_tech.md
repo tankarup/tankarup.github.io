@@ -1,9 +1,11 @@
 アイマス関係のツールやデータベースなど技術関係のウェブページをまとめます。
 
 # アイマス全般
-* [デレマス・ミリマス・シャニマス楽曲DB](https://fujiwarahaji.me/)
-* [アイマスDB](http://imas-db.jp/)
-* [im@sparql](https://sparql.crssnky.xyz/imas/)
+* [デレマス・ミリマス・シャニマス楽曲DB](https://fujiwarahaji.me/)(ふじわらはじめ)
+* [アイマスDB](http://imas-db.jp/)(にゃー)
+* [im@sparql](https://sparql.crssnky.xyz/imas/)(croMisaP)
+* [アイマス統計](https://idolmaster-statistics.hatenablog.com/)(紅木弘)
+* [アイマスP統計](https://booth.pm/ja/items/2049003)(牧田翠)
 
 # 765プロAS
 
