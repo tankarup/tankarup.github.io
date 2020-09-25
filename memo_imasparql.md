@@ -1,5 +1,5 @@
 # im@sparqlの使い方覚書
-アイマスの色んなデータをプログラムでゲットできるサービスim@aparql( https://sparql.crssnky.xyz/imas/ )の使い方をメモします。
+アイマスの色んなデータをプログラムでゲットできるサービスim@sparql( https://sparql.crssnky.xyz/imas/ )の使い方をメモします。
 
 ## Webでお試し
 ### 超基本
