@@ -46,7 +46,7 @@ WHERE {
 ```
 
 ### 使えるデータ
-* 例えば https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Akizuki_Ritsuko を開いてみると、『語彙』のところに「 http://schema.org/birthDate 」とか「 https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#Hobby 」とか記載されているのでこれを使う。
+* 例えば [https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Akizuki_Ritsuko](https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Akizuki_Ritsuko) を開いてみると、『語彙』のところに「 http://schema.org/birthDate 」とか「 https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#Hobby 」とか記載されているのでこれを使う。
 * 「Units」のタブに移動すると、『Unit Name』のところに「 https://sparql.crssnky.xyz/imasrdf/RDFs/detail/765ProAllstars 」とか記載されているのでこれを使う。
 
 ### 省略記法
