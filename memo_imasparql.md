@@ -1,5 +1,5 @@
 # im@sparqlの使い方覚書
-アイマスの色んなデータをプログラムでゲットできるサービスim@sparql( https://sparql.crssnky.xyz/imas/ )の使い方をメモします。
+アイマスの色んなデータをプログラムでゲットできるサービス[im@sparql](https://sparql.crssnky.xyz/imas/)の使い方をメモします。
 
 ## Webでお試し
 ### 超基本
@@ -25,7 +25,7 @@ WHERE {
 SELECT ?member ?weight
 WHERE {
      <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/765MillionStars> <http://schema.org/member> ?member.
-?member <http://schema.org/weight> ?weight.
+     ?member <http://schema.org/weight> ?weight.
 }
 ```
 
@@ -39,9 +39,9 @@ WHERE {
 SELECT ?member ?weight ?name
 WHERE {
      <https://sparql.crssnky.xyz/imasrdf/RDFs/detail/765MillionStars> <http://schema.org/member> ?member.
-?member <http://schema.org/weight> ?weight;
-<http://schema.org/name> ?name.
-filter(LANG(?name) = 'ja')
+     ?member <http://schema.org/weight> ?weight;
+        <http://schema.org/name> ?name.
+    filter(LANG(?name) = 'ja')
 }
 ```
 
@@ -50,7 +50,7 @@ filter(LANG(?name) = 'ja')
 * 「Units」のタブに移動すると、『Unit Name』のところに「 https://sparql.crssnky.xyz/imasrdf/RDFs/detail/765ProAllstars 」とか記載されているのでこれを使う。
 
 ### 省略記法
-いちいち\<https://~\>を入力するのは面倒なので、
+いちいち`<https://~>`を入力するのは面倒なので、
 
 ```sparql
 SELECT ?member
