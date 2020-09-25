@@ -73,6 +73,7 @@ WHERE {
 
 と省略する。
 
+あとは流れで。
 
 ## Javascriptに組み込む
 TBD
