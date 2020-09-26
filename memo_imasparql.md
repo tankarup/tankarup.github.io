@@ -1,11 +1,13 @@
 # im@sparqlの使い方覚書
-アイマスの色んなデータをプログラムでゲットできるサービス[im@sparql](https://sparql.crssnky.xyz/imas/)の使い方をメモします。
+* アイマスの色んなデータをプログラムからゲットできるサービス[im@sparql](https://sparql.crssnky.xyz/imas/)の使い方をメモします。
+* sparqlのことを全く知らず、そもそもデータベースのことも知らない状態から、使い方を模索した記録です。
 
-## Webでお試し
+## Webでまず試す
 ### 超基本
-* 'Input Query'に式を入力して"Submit"ボタンを押せば結果が表示される。
+* [im@sparql](https://sparql.crssnky.xyz/imas/)のページにある'Input Query'に式を入力して"Submit"ボタンを押せば結果が表示される。
 * 「?」がついているものは、いわゆる「変数」
 * <>でくくられているものは、いわゆるキーワード
+* 「I」「have」「a pen」、「My」「name is」「Ritsuko」のように3語で文をつくる。
 
 ### 基本式
 * 「765ミリオンスターズ」の「メンバー」を変数「?member」に入れる。
