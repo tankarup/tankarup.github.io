@@ -5,10 +5,11 @@
 ### 超基本
 * 'Input Query'に式を入力して"Submit"ボタンを押せば結果が表示される。
 * 「?」がついているものは、いわゆる「変数」
+* <>でくくられているものは、いわゆるキーワード
 
 ### 基本式
-* 「765ミリオンスターズ」の「メンバー」を「?member」に入れる。
-* ?memberを表示する。
+* 「765ミリオンスターズ」の「メンバー」を変数「?member」に入れる。
+* ?memberを出力する。
 
 ```sparql
 SELECT ?member
@@ -18,8 +19,8 @@ WHERE {
 ```
 
 * 「765ミリオンスターズ」の「メンバー」を「?member」に入れ、
-* ゲットした「?member」の「体重」を「?weight」に入れる。
-* ?member ?weightを表示する。
+* 取得した「?member」の「体重」を変数「?weight」に入れる。
+* ?member ?weightを出力する。
 
 ```sparql
 SELECT ?member ?weight
@@ -30,10 +31,10 @@ WHERE {
 ```
 
 * 「765ミリオンスターズ」の「メンバー」を「?member」に入れ、
-* ゲットした「?member」の「体重」を「?weight」に入れ、
-* 続けて「?member」の「名前」を「?name」に入れ、
-* 「?name」は「日本語」だけに絞り込む。
-* ?member ?weight ?nameを表示する。
+* 取得した「?member」の「体重」を変数「?weight」に入れ、
+* 続けて「?member」の「名前」を変数「?name」に入れ、
+* 取得した「?name」は「日本語」だけに絞り込む。
+* ?member ?weight ?nameを出力する。
 
 ```sparql
 SELECT ?member ?weight ?name
@@ -45,7 +46,7 @@ WHERE {
 }
 ```
 
-### 使えるデータ
+### どんなキーワードが使えるのか
 * 例えば [https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Akizuki_Ritsuko](https://sparql.crssnky.xyz/imasrdf/RDFs/detail/Akizuki_Ritsuko) を開いてみると、『語彙』のところに「 http://schema.org/birthDate 」とか「 https://sparql.crssnky.xyz/imasrdf/URIs/imas-schema.ttl#Hobby 」とか記載されているのでこれを使う。
 * 「Units」のタブに移動すると、『Unit Name』のところに「 https://sparql.crssnky.xyz/imasrdf/RDFs/detail/765ProAllstars 」とか記載されているのでこれを使う。
 
@@ -73,7 +74,7 @@ WHERE {
 
 と省略する。
 
-あとは流れで。
+あとは流れで。[公式ドキュメント](https://doc.crssnky.xyz/imasparql/)を読む。
 
 ## Javascriptに組み込む
 TBD
