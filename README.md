@@ -9,5 +9,6 @@
 ## その他
 * [カラーサークル作成ツール](https://tankarup.github.io/colorcircle/)
 * [いろいろ](https://tankarup.github.io/MillionLive-analysis/)
+* [Bootstrapの基本配色を変更する](./customize_bootstrap_color/index.md)
 * [im@sparql覚書](memo_imasparql.md)
 * [アイマス技術部リンク](imas_tech.md)
