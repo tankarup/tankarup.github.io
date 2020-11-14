@@ -37,10 +37,10 @@ BootstrapはWebページのデザインを構築するのにとても便利で�
 
 ![](2020-11-14-12-50-13.png)
 
-(ラジオボタンの配色設定をミスっているような…？)
+(ボタンの配色設定をミスっているような…？)
 
 ## [Themestr.app](https://themestr.app/theme)
-Themestr.app](https://themestr.app/theme)の使い方を説明します。
+[Themestr.app](https://themestr.app/theme)の使い方を説明します。
 
 画面右側にある`Customize Bootstrap 4`のところにあるカラーコードHEX値を編集し、`Customize Bootstrap 4`のチェックマークを入れます。
 
@@ -55,6 +55,13 @@ Themestr.app](https://themestr.app/theme)の使い方を説明します。
 ![](2020-11-14-13-04-20.png)
 
 ## まとめ
-ツールを二つ紹介しましたが、細かいところではそれぞれで違いがあるようです。また今回紹介した基本配色の設定以外にも様々な設定が可能です。色々ためしてみてください。
+
+|  ツール  |  見た目  |
+| :----: | :----: |
+|   デフォルト |  ![](2020-11-14-12-23-12.png) |
+|  Bootstrap Magic |  ![](2020-11-14-12-50-13.png)  | 
+|  Themestr.app  |  ![](2020-11-14-13-04-20.png)  | 
+
+[Themestr.app](https://themestr.app/theme)のほうがよさそうな感じです。ぜひ使ってみてください。
 
 [1] ぴー助, Bootstrapで *-primary の色を一括変更するには, https://pisuke-code.com/bootstrap-change-primary-color/
