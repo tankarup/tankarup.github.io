@@ -264,11 +264,18 @@ const items = [
 		'[可視化]越境版：何つながりなのかな？',
 		'アイドルマスターのシリーズを超えて似た趣味を探します。',
 		'hobbies.jpg',
-		'https://tankarup.github.io/Similar-hobbies/index.html',
+		'https://tankarup.github.io/Similar-hobbies/',
+	],
+	[
+		'[可視化]ライブで登場するかもしれないユニットを探す',
+		'アイマスのリアルライブ出演者リストをコピペして、メンバーがそろっているユニットを探します。',
+		'potential_units.jpg',
+		'https://tankarup.github.io/find-potential-units/',
 	],
 ];
 
-for (let item of items){
+for (let i = 0; i < items.length; i++){
+	const item = items[items.length - i - 1];
 	contents += `
 <div class="item">
 	<a href="${item[3]}">
@@ -279,6 +286,7 @@ for (let item of items){
 </div>
 	`;
 }
+
 
 
 document.getElementById('contents').innerHTML = contents;
