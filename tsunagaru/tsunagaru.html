@@ -16,6 +16,9 @@
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
    }
+   .highlight {
+	background-color:ivory;
+   }
    .item > * {
 	vertical-align: top;
    }
@@ -99,7 +102,7 @@ const items = [
 	],
 	
 	[
-		'[分析]言葉遣い',
+		'[おすすめ][分析]言葉遣い',
 		'オファーテキストをKH Coderでテキスト分析し、言葉遣いが似ているアイドルを探します。',
 		'offertext.png',
 		'https://tankarup.github.io/MillionLive-analysis/texts/offer_text_analysis/offer_text_analysis.html',
@@ -155,7 +158,7 @@ const items = [
 		'https://tankarup.github.io/Idol-color/your_color.html',
 	],
 	[
-		'[ツール][可視化]アイコン散布図',
+		'[おすすめ][ツール][可視化]アイコン散布図',
 		'CSVファイルを読み込んで、アイコン画像で散布図をつくるツールです。',
 		'scatter.png',
 		'https://tankarup.github.io/MillionLive-analysis/scatter.html',
@@ -173,7 +176,7 @@ const items = [
 		'https://tankarup.github.io/color-of-the-name/color_name.html',
 	],
 	[
-		'[ジョーク]「友情エネルギー」',
+		'[おすすめ][ジョーク]「友情エネルギー」',
 		'ピコピコプラネッツの「幼年期」と「友情エネルギー」について考察してみました。ミリオン星人は宇宙創成の能力を有しているようです。',
 		'picopico.png',
 		'https://tankarup.github.io/MillionLive-analysis/texts/picopico/picopico.html',
@@ -186,7 +189,7 @@ const items = [
 	],
 		
 	[
-		'[分析]仲良しグループの探索と差別の構造',
+		'[おすすめ][分析]仲良しグループの探索と差別の構造',
 		'ミリシタ4コマの登場回を分析。同じ話に登場すると仲が良いとみなして、階層型クラスタリングしました。また登場回数が著しく偏っている現象を追求し、差別・平等・公平の構造を見出しました。',
 		'4koma.png',
 		'https://tankarup.github.io/MillionLive-analysis/texts/4koma/4koma.html',
@@ -206,31 +209,31 @@ const items = [
 	],
 
 	[
-		'シアター3Dモデル',
+		'[おすすめ]シアター3Dモデル',
 		'765プロライブ劇場の内部構造を推測して3Dモデルを作成しました。内部を自由に歩き回ることができます。',
 		'theater.png',
 		'https://cluster.mu/w/92458ea4-6424-44c8-8833-33491ceccd5a',
 	],
 	[
-		'[ツール]ミリシタ4コマビューア',
+		'[おすすめ][ツール]ミリシタ4コマビューア',
 		'ミリシタ4コマで好きなカプが登場する回を検索して公式Twitterで表示します。一部作画担当で絞り込むこともできます。',
 		'4komaviewer.png',
 		'https://tankarup.github.io/ML-4koma-viewer/4koma.html',
 	],
 	[
-		'[ツール]ミリシタカプ検索',
+		'[おすすめ][ツール]ミリシタカプ検索',
 		'ミリシタで好きなカプが登場するイベント、コミュ、楽曲、4コマを検索することができます。',
 		'couple.png',
 		'https://tankarup.github.io/ML-pair-finder/',
 	],
 	[
-		'[分析]アイマスシリーズのイメージカラー分布来',
+		'[おすすめ][分析]アイマスシリーズのイメージカラー分布来',
 		'アイドルのイメージカラーを分析し、どんな色が使われているのかを調べました。緑色は避けられているようです。',
 		'color_map.png',
 		'https://tankarup.github.io/MillionLive-analysis/texts/image_colors/image_colors_map.html',
 	],
 	[
-		'[分析]ミリシタのイメージカラーの由来',
+		'[おすすめ][分析]ミリシタのイメージカラーの由来',
 		'ミリシタのイメージカラーがキャラクターデザインのどの部分に使われているのかを調べました。星梨花と琴葉は色を交換しているようです。',
 		'idolcolor.png',
 		'https://tankarup.github.io/MillionLive-analysis/texts/image_colors/image_colors.html',
@@ -248,7 +251,7 @@ const items = [
 		'https://tankarup.github.io/MillionLive-analysis/timeline/',
 	],
 	[
-		'[分析]肌の色を調査',
+		'[おすすめ][分析]肌の色を調査',
 		'765ASとミリオンのアイドルの肌の色を調べて整理しました。肌の色にあった服を選んであげましょう。意味が分かりませんね。',
 		'skin.png',
 		'https://tankarup.github.io/MillionLive-analysis/texts/skin/',
@@ -260,7 +263,7 @@ const items = [
 		'https://tankarup.github.io/AR-theater/',
 	],
 	[
-		'[分析]劇場内の貼り紙',
+		'[おすすめ][分析]劇場内の貼り紙',
 		'劇場内には「野球禁止」を始めとした貼り紙がたくさんあります。貼り紙のリストアップや貼られるようになった経緯などを考察しました。',
 		'harigami.jpg',
 		'https://tankarup.github.io/MillionLive-analysis/texts/harigami/',
@@ -290,25 +293,25 @@ const items = [
 		'https://umap.openstreetmap.fr/ja/map/map_626031',
 	],
 	[
-		'[可視化]聖地巡礼マップ',
+		'[おすすめ][可視化]聖地巡礼マップ',
 		'あーもんさんが特定したミリシタの聖地巡礼場所を地図上に表示しました。',
 		'map.jpg',
 		'https://umap.openstreetmap.fr/ja/map/map_628916',
 	],
 	[
-		'[可視化]音声分析',
+		'[おすすめ][可視化]音声分析',
 		'タイトルコールの音声から波形とスペクトログラム(声紋)のグラフを作成しました。波形も愛でましょう。',
 		'voice.jpg',
 		'https://tankarup.github.io/MillionLive-analysis/texts/voice/',
 	],
 	[
-		'[可視化]劇場内部構造',
+		'[おすすめ][可視化]劇場内部構造',
 		'劇場の内部を映した背景画像をまとめました。また間取りを推定し、客席フロアや劇場建物のサイズを計算しました。',
 		'theater-inside.jpg',
 		'https://tankarup.github.io/MillionLive-analysis/texts/theater/',
 	],
 	[
-		'[分析]オンラインミリオン学会',
+		'[おすすめ][分析]オンラインミリオン学会',
 		'第1回オンラインミリオン学会に参加し、イメージカラーの分析に関して発表しました。発表資料を載せます。',
 		'conference.jpg',
 		'https://docs.google.com/presentation/d/1QNiMPR4rRK_vAWbm30BlJhNXUloUSOzDobSmzjDoNFs/edit?usp=sharing',
@@ -332,7 +335,7 @@ const items = [
 		'https://umap.openstreetmap.fr/ja/map/map_644663',
 	],
 	[
-		'[分析]39プロジェクト　加入順の推定',
+		'[おすすめ][分析]39プロジェクト　加入順の推定',
 		'メモリアルコミュ1から39プロジェクトの加入順を考えたら、ジュリアとエレナは765ASに加入するはずだったのでは？という結論になりました。',
 		'scout.jpg',
 		'https://tankarup.github.io/MillionLive-analysis/texts/scout/',
@@ -344,7 +347,7 @@ const items = [
 		'https://tankarup.github.io/MillionLive-analysis/linechat/',
 	],
 	[
-		'[可視化]アイドルの家族情報まとめ(未完)',
+		'[おすすめ][可視化]アイドルの家族情報まとめ(未完)',
 		'アイドルの家族情報、特に画像の出所をまとめていくつもりです。',
 		'family.jpg',
 		'https://docs.google.com/spreadsheets/d/1bZUAD5t0pIYbmV6mLJuYV0hUfgcP4snJNGHJ5tm6go4/edit#gid=0',
@@ -357,14 +360,14 @@ const items = [
 	],
 	[
 		'[テスト]AR聖地巡礼',
-		'スマホのカメラで周囲の聖地画像を表示します。豊洲など聖地であふれた場所で動くかもしれません。まともに動きませんが、多分更新しません。',
+		'スマホのカメラで周囲の聖地画像を表示します。豊洲など聖地がたくさんの場所で動くかもしれません。まともに動きませんが、多分更新しません。',
 		'ar-seichi.jpg',
 		'https://tankarup.github.io/AR-mirishita/seichi/',
 	],
 
 	[
-		'[]VRMモデル',
-		'アイドルのVRMモデルを作成しました。VRoid Hub対応アプリであれば、モデルを自分で動かすことができるようにしています。',
+		'[おすすめ]VRMモデル',
+		'アイドルのVRMモデルを作成しました。VRoid Hub対応アプリでモデルを読み込むことができます。',
 		'vrm.jpg',
 		'https://hub.vroid.com/users/72359402',
 	],
@@ -381,8 +384,8 @@ const items = [
 		'https://docs.google.com/spreadsheets/d/1-O8I79BMOsfq4BD3EFhOkMU_5FVgoXVynZXjUAXiUsI/edit?usp=sharing',
 	],
 	[
-		'[可視化]「？」をよく使うのは誰？',
-		'オファーテキストをもとに、指定した単語の使用頻度をグラフ化し、検索ツールを作りました。例えば「♪」をよく使うアイドルを調べることができます。',
+		'[可視化]「♪」をよく使うのは誰？',
+		'お仕事オファーで単語の使用頻度をグラフ化するツールを作りました。例えば「♪」をよく使うアイドルを調べることができます。',
 		'♪.jpg',
 		'https://tankarup.github.io/MillionLive-analysis/texts/offer_text_style/',
 	],
@@ -405,15 +408,15 @@ const items = [
 		'https://gallery.styly.cc/scene/280bc194-c356-450b-bbb7-bc9cd39f998d',
 	],
 	[
-		'[TIPS]グラビアスタジオの背景選択',
-		'グラビアスタジオで実写背景を使うときに適切な背景の選び方を調べました。',
+		'[TIPS][obsolete]グラビアスタジオの背景選択',
+		'グラビアスタジオで実写背景を使うときに適切な背景の選び方を調べましたが、ミリシタに照明調節機能が付きましたので不要になりました。',
 		'gravure.jpg',
 		'https://twitter.com/i/events/1557367477901766658',
 	],
 
 	[
-		'[可視化]目のデザイン',
-		'52人の目を調べました。',
+		'[おすすめ][可視化]目のデザイン',
+		'52人の目を調べました。奈緒と昴の目がユニークです。',
 		'eyes.jpg',
 		'https://tankarup.github.io/MillionLive-analysis/texts/eye/',
 	],
@@ -423,7 +426,7 @@ const items = [
 for (let i = 0; i < items.length; i++){
 	const item = items[items.length - i - 1];
 	contents += `
-<div class="item">
+<div class="item ${item[0].indexOf('[おすすめ]') >= 0 ? 'highlight' : ''}" >
 	<a href="${item[3]}">
 		<img src="${item[2]}" />
 		<div class="title">${item[0]}</div>
